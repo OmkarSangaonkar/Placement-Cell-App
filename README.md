@@ -2,7 +2,7 @@
 
 ## Deployed Link
 
-##
+## https://placementcellapp-zrs9.onrender.com
 
 ## NodeJS, ExpressJS, EJS, MongoDB, MongooseJS and Bootstrap has been used for this app.
 

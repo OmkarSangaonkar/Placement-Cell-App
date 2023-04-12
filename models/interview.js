@@ -1,5 +1,7 @@
+// Importing the Mongoose library
 const mongoose = require("mongoose");
 
+// Defining the interview schema for the database
 const interviewSchema = new mongoose.Schema(
   {
     company: {
@@ -14,7 +16,7 @@ const interviewSchema = new mongoose.Schema(
       {
         student: {
           type: mongoose.Schema.Types.ObjectId,
-          ref: "Student",
+          ref: "Student", // Reference to the Student model
         },
         result: {
           type: String,
@@ -24,7 +26,7 @@ const interviewSchema = new mongoose.Schema(
     ],
   },
   {
-    timestamps: true,
+    timestamps: true, // Automatically add "createdAt" and "updatedAt" fields to documents
   }
 );
 
